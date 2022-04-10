@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "62589132-193e-4f9e-a806-e947db578f39",
+		"name": "POC-Address-geocode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "health check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/geocode/v1/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"geocode",
+						"v1",
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/geocode/v1/location?street=rua%20luiz%20carlos%20samartini&number=226&county=s%C3%A3o%20jos%C3%A9%20dos%20campos&state=s%C3%A3o%20paulo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"geocode",
+						"v1",
+						"location"
+					],
+					"query": [
+						{
+							"key": "street",
+							"value": "rua%20luiz%20carlos%20samartini"
+						},
+						{
+							"key": "number",
+							"value": "226"
+						},
+						{
+							"key": "county",
+							"value": "s%C3%A3o%20jos%C3%A9%20dos%20campos"
+						},
+						{
+							"key": "state",
+							"value": "s%C3%A3o%20paulo"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
