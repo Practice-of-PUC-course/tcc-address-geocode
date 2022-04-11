@@ -40,10 +40,18 @@ The configuration file called .env must be created in the project root before st
 NODE_ENV="development"
 EXTERNAL_API_URL="https://api.opencagedata.com/geocode/v1"
 EXTERNAL_API_TOKEN="ashdlkad8ySDYAsdyASDIOY5a55q5w6"
+GOOGLE_API_URL="https://maps.googleapis.com/maps/api/geocode"
+GOOGLE_API_KEY="AHGhgJHKSHKAs676a78686a88a89sAS7dS"
+GEOAPIFY_API_URL="https://api.geoapify.com/v1/geocode"
+GEOAPIFY_API_KEY="abbbb32b3b23b3b223v2323vb2v3b2v3b"
 API_LISTEN_PORT="3000"
+# *ALL API KEYS HERE ARE UNREAL
 ```
 
-For this test we use a (OpenCage)[https://opencagedata.com/] free plan.
+For this test we use these providers:
+ - (OpenCage)[https://opencagedata.com/] free plan (gives the worst results, need more tests).
+ - (Geoapify)[https://www.geoapify.com/] free plan.
+ - (GoogleAPI)[https://maps.googleapis.com/maps/api/geocode] paid plan (disabled).
 
 ## Architecture (backend)
 
@@ -51,13 +59,13 @@ For this test we use a (OpenCage)[https://opencagedata.com/] free plan.
 - business tier: handler services and class models
 - presentation tier: routers and API endpoints
 
-
 ## What remains to improve?
 
  - unit tests and another tests;
  - exception handlers;
  - logging levels to file;
- - include swagger-ui-express to better API presentation
+ - include swagger-ui-express to better API presentation;
+ - Compare the accuracy of Geocode APIs;
 
 ## Feedback
 
