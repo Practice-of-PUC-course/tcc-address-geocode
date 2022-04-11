@@ -1,7 +1,7 @@
 {
   "name": "address-geocode",
   "version": "1.0.0",
-  "description": "A simple Address geocode API using Node.js and OpenCage as external API",
+  "description": "A simple address geocoding API using Node.js and an external API",
   "main": "src/server.js",
   "type": "module",
   "repository": {
@@ -9,8 +9,7 @@
     "url": "https://github.com/Practice-of-PUC-course/tcc-address-geocode.git"
   },
   "scripts": {
-    "start": "nodemon ./src/server.js",
-    "start1": "nodemon --config ./nodemon.json ./src/server.js"
+    "start": "nodemon ./src/server.js"
   },
   "author": "andre-carvalho",
   "license": "ISC",
