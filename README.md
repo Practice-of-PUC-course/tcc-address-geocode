@@ -10,7 +10,7 @@ This project is a software component to compose the proof of concept of the PUC 
 
 I use Postman to test API endpoints, so a test collection has been exported and can be found in the [postman](./postman/postman_collection.json) directory.
 
-My Postman reference version: v7.36.5
+My Postman reference version: v9.15.10
 
 #### Location endpoint
 
