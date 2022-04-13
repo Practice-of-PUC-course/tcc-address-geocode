@@ -23,5 +23,3 @@ EXPOSE 3000
 VOLUME ["/data/logs"]
 
 ENTRYPOINT [ "./setenv.sh" ]
-
-#CMD ["pm2-runtime", "--env", "production", "start", "pm2.json"]
