@@ -1,5 +1,5 @@
 {
-  "name": "address-geocode",
+  "name": "tcc-address-geocode",
   "version": "1.0.0",
   "description": "A simple address geocoding API using Node.js and an external API",
   "main": "src/server.js",
@@ -14,10 +14,10 @@
   "author": "andre-carvalho",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^10.0.0",
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "axios": "^0.26.1",
     "express": "^4.17.1"
   }
